@@ -1,6 +1,7 @@
 import { DateTime } from 'luxon';
 import React from 'react';
 import {
+  FlatList,
   StyleProp,
   StyleSheet,
   useColorScheme,
@@ -9,9 +10,6 @@ import {
   ViewStyle,
 } from 'react-native';
 import Day from './Day';
-import {
-  FlatList
-} from 'react-native-gesture-handler';
 
 interface RenderDayProps {
   date: Date;

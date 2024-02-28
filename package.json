@@ -1,5 +1,5 @@
 {
-  "name": "@mrdog210/react-native-week-strip",
+  "name": "react-native-week-strip",
   "version": "0.3.1",
   "description": "A simple week strip for React Native",
   "main": "lib/commonjs/index",
@@ -142,7 +142,6 @@
     ]
   },
   "dependencies": {
-    "luxon": "^1.25.0",
-    "react-native-gesture-handler": "^2.15.0"
+    "luxon": "^1.25.0"
   }
 }
