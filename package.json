@@ -1,6 +1,6 @@
 {
-  "name": "react-native-week-strip",
-  "version": "0.3.1",
+  "name": "@mrdog210/react-native-week-strip",
+  "version": "0.3.2",
   "description": "A simple week strip for React Native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -34,7 +34,7 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/sallar/react-native-week-strip",
+  "repository": "https://github.com/MrDog210/react-native-week-strip",
   "author": "Sallar Kaboli <sallar@kaboli.org> (https://github.com/sallar)",
   "license": "MIT",
   "bugs": {
@@ -142,6 +142,7 @@
     ]
   },
   "dependencies": {
-    "luxon": "^1.25.0"
+    "luxon": "^1.25.0",
+    "react-native-gesture-handler": "^2.15.0"
   }
 }
